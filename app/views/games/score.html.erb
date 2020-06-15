@@ -1,0 +1,11 @@
+<h1>Result</h1>
+<% if !@incl %>
+    <p>Sorry but <b><%= @word_upp.join("")%></b> can't be build out of <%= @letters.join("")%></p>
+    <%elsif !@engl %>
+    <p>Sorry but <b><%= @word_upp.join("")%></b> does not seem to be a valid English word</p>
+    <%else %>
+    <p><b>Congratulation!</b> <%= @word_upp.join("")%> is a valid English word! </p>
+<% end%>
+  <br>
+
+  <%= link_to "Play again", new_path %>

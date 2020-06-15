@@ -1,0 +1,30 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+td {
+  border: 1px solid lightgray;
+  padding: 20px;
+  background-color: antiquewhite;
+  box-shadow: 0 0 1px grey;
+}
+
+table {
+  border-spacing: 20px;
+}
+
+#word-input {
+  width: 500px;
+  padding: 10px;
+}
+
+#subm {
+  padding: 10px;
+  background-color: #faebd7;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  &:hover {
+    background-color: #faebd7;
+    opacity: 0.8;
+    color: black;
+  }
+}
